@@ -134,6 +134,30 @@ html,
 body {
   height: 100%;
 }
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    margin-top: 50px;
+  }
+  .name {
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  .Career {
+    margin-left: 20px;
+  }
+  .Code {
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  .S {
+    margin-bottom: 10px;
+  }
+}
 body {
   margin: 5%;
   background-color: #afafaf;
@@ -142,7 +166,7 @@ body nav {
   display: flex;
   justify-content: space-evenly;
 }
-body nav a {
+body a {
   border: solid black 2px;
   border-radius: 5px;
   margin: 0 19px;
@@ -153,9 +177,6 @@ body nav a {
   background: silver;
   margin-bottom: 20px;
 }
-body a:hoover {
-  background-color: white;
-}
 body .top {
   display: flex;
   justify-content: center;
@@ -164,13 +185,13 @@ body .top {
 body img {
   max-height: 150px;
   max-width: 200px;
-  width: 1900px;
-  height: 1800px;
+  width: 150px;
+  height: 150px;
 }
 body .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   margin-left: 50px;
   padding-top: 50px;
   align-content: center;
@@ -185,32 +206,127 @@ body .container p {
   align-self: center;
 }
 body .AContainer {
-  border: solid red 1px;
   padding: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 body .About {
-  border: solid blue 1px;
+  padding-bottom: 15px;
 }
 body .button a {
   border: solid black 2px;
   border-radius: 5px;
   border: 1px solid lightgray;
-  padding: 10px;
+  padding: 5px;
   color: black;
   text-decoration: none;
   background: silver;
 }
 body .AboutMeContainer {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
-body .AboutMeContainer h1.AboutMe {
-  border: solid yellow 1px;
+body .AboutMe {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-bottom: 10px;
+}
+body .Me {
+  align-self: center;
+}
+body .Mep {
+  margin-top: 15px;
 }
 body .Strength {
-  border: solid darkblue 1px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 50px;
+}
+body .S {
+  align-self: center;
+}
+body ul.Sp {
+  list-style-type: square;
+}
+body .WorkHistory {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+body .WH0 {
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+body .WH {
+  display: flex;
+}
+body .WH1 {
+  width: 35%;
+  border-top: solid black 1px;
+  border-left: solid black 1px;
+  padding: 5px 15px;
+}
+body .WHC {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+body .WH2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+body .WH3 {
+  width: 35%;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  border-left: solid black 1px;
+  border-right: 0px;
+  padding: 5px 15px;
+}
+body .WH4 {
+  width: 35%;
+  border-top: solid black 1px;
+  border-bottom: 0px;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  padding: 5px 15px;
+}
+body .WH5 {
+  width: 35%;
+  border-top: solid black 1px;
+  border-bottom: 0px;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  padding: 5px 15px;
+}
+body .WH6 {
+  width: 35%;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  padding: 5px 15px;
+}
+body .contact-section {
+  display: flex;
+  flex-direction: column;
+}
+body .CM {
+  font-weight: bold;
+  margin: 10px 0px;
+}
+body address {
+  margin-bottom: 20px;
+}
+body .CopyR {
+  display: flex;
+  justify-content: center;
+}
+body .CR {
+  margin: 10px 0px;
+  padding: 15px 0px;
 }
